@@ -25,9 +25,9 @@ const QuizForm: React.FC<QuizFormProps> = ({ onComplete }) => {
 
   const problems = [
     { id: 'rigidez', title: 'Falta de Rigidez', sub: 'Instabilidade durante o ato', icon: '⚡' },
-    { id: 'precoce', title: 'Ejaculação Precoce', sub: 'Duração abaixo do desejado', icon: '⏱️' },
+    { id: 'precoce', title: 'Pouca Duração', sub: 'Duração abaixo do desejado', icon: '⏱️' },
     { id: 'performance', title: 'Baixa Performance', sub: 'Falta de vigor e energia', icon: '🪨' },
-    { id: 'libido', title: 'Falta de Libido', sub: 'Baixa disposição ou desejo', icon: '🧬' },
+    { id: 'libido', title: 'Falta de Vontade', sub: 'Baixa disposição ou desejo', icon: '🧬' },
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -37,9 +37,9 @@ const QuizForm: React.FC<QuizFormProps> = ({ onComplete }) => {
 
   return (
     <div className="min-h-screen bg-zinc-50 text-zinc-900 font-sans p-6 flex flex-col items-center">
-      <div className="bg-zinc-900 py-2 px-4 text-center fixed top-0 left-0 right-0 z-40 shadow-sm border-b border-zinc-800">
+      <div className="bg-red-600 py-2 px-4 text-center fixed top-0 left-0 right-0 z-40 shadow-sm border-b border-red-700">
         <p className="text-[10px] md:text-xs font-black tracking-widest uppercase text-white flex items-center justify-center gap-2">
-          <span>🛡️</span> ACESSO SEGURO E PRIVADO <span>🛡️</span>
+          <span>🚨</span> PERSONALIZAÇÃO EXCLUSIVA LIBERADA <span>🚨</span>
         </p>
       </div>
 

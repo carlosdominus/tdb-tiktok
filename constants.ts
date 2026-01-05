@@ -20,5 +20,5 @@ export const COMMON_DATA: PageData = {
     { title: "Guia Surpresa de Saúde Masculina", price: "R$1997" }
   ],
   guaranteeDays: 90,
-  checkoutUrl: "https://go.perfectpay.com.br/PPU38CQ5AD6?src=bkr"
+  checkoutUrl: "https://go.perfectpay.com.br/PPU38CQ5ADF?src=bio"
 };
